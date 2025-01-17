@@ -21,7 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // SMTP configuration
     $mail = new PHPMailer(true);
-    // gny49?47O
 
     try {
 

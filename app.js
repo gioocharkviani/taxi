@@ -28,13 +28,10 @@ document
 
     try {
       btn.innerHTML = "იგზავნება...";
-      const response = await fetch(
-        "https://texi-two.vercel.app/send_email.php",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+      const response = await fetch("https://tbilrides.ge/send_email.php", {
+        method: "POST",
+        body: formData,
+      });
       if (response.ok) {
         btn.innerHTML = "მეილი გაგზავნილია..";
         btn.style.backgroundColor = "green";

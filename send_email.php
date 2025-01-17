@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contact = $_POST['contact'];
 
     // Email details
-    $to = "gioocharkviani@gmail.com";
+    $to = "info@tbilrides.ge";
     $subject = "New Contact from $company_name";
     $message = "Company Name: $company_name\nPerson: $person\nCity: $city\nEmail: $email\nContact: $contact";
 

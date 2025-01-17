@@ -21,14 +21,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // SMTP configuration
     $mail = new PHPMailer(true);
+    // gny49?47O
 
     try {
 
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'mkrtichiani13@gmail.com'; 
-        $mail->Password = 'zftn waao dgox otfp';
+        $mail->Username = 'tbilrides@gmail.com'; 
+        $mail->Password = 'bkxi xahl nuxn jhzk';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
         $mail->Port = 465;
 

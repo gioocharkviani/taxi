@@ -105,6 +105,12 @@ body {
   font-family: tbMd;
 }
 
+.ul-inside-ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .desktop-menu a {
   text-decoration: none;
   color: #686868;
@@ -162,6 +168,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.menu-overlay ul ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
 }
 
 .menu-overlay a {

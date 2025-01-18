@@ -105,7 +105,7 @@ body {
   font-family: tbMd;
 }
 
-.ul-inside-ul {
+.li-inside-ul {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -120,11 +120,7 @@ body {
   transition: 0.1s all ease-in-out;
 }
 
-.desktop-menu a li {
-  transition: 0.1s all ease-in-out;
-}
-
-.desktop-menu a:hover * {
+.desktop-menu a:hover {
   color: black;
 }
 
@@ -296,7 +292,7 @@ body {
   gap: 12px;
 }
 
-.grid-item h4 {
+.grid-item h5 {
   font-family: tbBold;
   font-size: 36px;
 }
